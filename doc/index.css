@@ -1,0 +1,39 @@
+body {
+    width: 98%;
+}
+
+.box {
+    display: inline-block;
+    width: 250px;
+    height: 270px
+}
+
+.morelistContainar {
+    height: 270px;
+    overflow: hidden;
+}
+
+.button {
+    border: 1px white;
+    background-color: #49a9b4;
+    width: 98%;
+    padding: 10px 0;
+    font-size: large;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: none;
+    cursor: default;
+    color: white;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.button:hover {
+    opacity: 0.5;
+}
+
+.button:active {
+    opacity: 1;
+}
